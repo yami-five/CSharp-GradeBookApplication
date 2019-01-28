@@ -6,7 +6,7 @@ using System.Text;
 
 namespace GradeBook.GradeBooks
 {
-    class RankedGradeBook:BaseGradeBook
+    class RankedGradeBook : BaseGradeBook
     {
         public RankedGradeBook (string name):base(name)
         {
@@ -31,8 +31,6 @@ namespace GradeBook.GradeBooks
                 return 'D';
             else
                 return 'F';
-
-            return base.GetLetterGrade(averageGrade);
         }
     }
 }
